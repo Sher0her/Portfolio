@@ -1,4 +1,58 @@
 html {
-  height: 100%;
-  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #e6f0fa; 
+  color: #1a1a1a;
+}
+
+.logo-text {
+  color: #4a90e2; 
+}
+
+
+.hero {
+  padding: 80px 20px;
+  background: linear-gradient(to right, #a9c9ff, #6096fd); 
+  color: #ffffff;
+}
+
+.main-heading {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+.highlight-text {
+  color: #ffdd57;
+}
+
+.description {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  background: #4a90e2;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background: #357abd;
+}
+
+/* Footer */
+.footer {
+  background: #1f3b5b; 
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
