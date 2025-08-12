@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,12 +6,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <style>
+    /* Optional: Add fallback fonts if needed */
+    body {
+      font-family: 'Roboto', sans-serif;
+    }
+  </style>
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom shadow-sm">
   <div class="container">
     <a class="navbar-brand fw-bold" href="index.html">SHE</a>
-    <div class="collapse navbar-collapse">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
         <li class="nav-item"><a class="nav-link" href="design-assets.html">Design Assets</a></li>
@@ -27,7 +35,11 @@
     <h2>Wireframe</h2>
     <img src="attached_assets/Screenshot 2025-08-11 144933_1754938218529.png" class="img-fluid border rounded shadow" alt="Design Wireframe showing color palette and typography" style="max-width: 600px;">
   </div>
-</section>
+</section><section class="design-reflection">
+    <h2>Design Process Reflection</h2>
+    <p>
+      Starting with wireframing  gave me the structure I needed to begin building my website.    Although the final design evolved significantly, the wireframe served as a crucial blueprint; it outlined the layout, clarified priorities, and helped me visualize the user experiences.   </p>
+  </section>
 
 <section class="py-5">
   <div class="container">
@@ -43,9 +55,16 @@
         </div>
       </div>
       <div class="col-md-6">
+        <h3>Brand Story</h3>
+        <p>
+          The brand <strong>SHE</strong> originates from my own name, making it personal while also standing as an empowering statement for women in tech. This portfolio design reflects a commitment to confidence, clarity, and progress,not only in my own career but also in uplifting and inspiring other women along the way.
+        </p>
+        <p>
+          I chose a modern blue-based color palette to express trust, calmness, and intelligence,values I believe are essential in creating meaningful, impactful work. The typography is a balance of bold and refined.
+        </p>
         <h3>Fonts</h3>
-        <p style="font-family: 'Roboto', sans-serif;">Roboto - Body Text</p>
-        <p style="font-family: 'Montserrat', sans-serif; font-weight:bold;">Montserrat - Headings</p>
+        <p style="font-family: 'Roboto', sans-serif;">Roboto – Body Text</p>
+        <p style="font-family: 'Montserrat', sans-serif; font-weight: bold;">Montserrat – Headings</p>
       </div>
     </div>
   </div>
@@ -54,5 +73,9 @@
 <footer class="bg-dark text-white text-center py-3">
   <p>2025 SHE Portfolio</p>
 </footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
